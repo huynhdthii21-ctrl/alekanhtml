@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алекан — Чистота как стандарт индустрии</title>
+    <meta name="description"
+        content="Современное моечное и дезинфицирующее оборудование для пищевой промышленности и агрокомплексов из Нижнего Новгорода.">
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- NAVIGATION -->
+    <header id="main-header" class="fixed w-full bg-transparent z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 h-20 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#" class="text-2xl font-bold text-primary tracking-tight">Алекан</a>
+
+            <!-- Desktop Menu -->
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#about" class="text-sm font-medium text-slate-600 hover:text-primary transition">О компании</a>
+                <a href="#solutions"
+                    class="text-sm font-medium text-slate-600 hover:text-primary transition">Решения</a>
+                <a href="#equipment"
+                    class="text-sm font-medium text-slate-600 hover:text-primary transition">Оборудование</a>
+                <a href="#services" class="text-sm font-medium text-slate-600 hover:text-primary transition">Услуги</a>
+                <a href="#contact" class="text-sm font-medium text-slate-600 hover:text-primary transition">Контакты</a>
+                <a href="#contact"
+                    class="px-5 py-2.5 bg-primary text-white rounded-full text-sm font-semibold hover:bg-blue-700 transition shadow-lg shadow-blue-500/30">Связаться</a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden p-2 text-slate-600 hover:text-primary focus:outline-none">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu"
+            class="hidden md:hidden absolute top-20 left-0 w-full bg-white shadow-xl border-t border-slate-100 p-6 flex flex-col space-y-4">
+            <a href="#about" class="text-base font-medium text-slate-700 hover:text-primary">О компании</a>
+            <a href="#solutions" class="text-base font-medium text-slate-700 hover:text-primary">Решения</a>
+            <a href="#equipment" class="text-base font-medium text-slate-700 hover:text-primary">Оборудование</a>
+            <a href="#services" class="text-base font-medium text-slate-700 hover:text-primary">Услуги</a>
+            <a href="#contact" class="text-base font-medium text-slate-700 hover:text-primary">Контакты</a>
+            <a href="#contact"
+                class="w-full text-center px-5 py-3 bg-primary text-white rounded-xl text-sm font-semibold hover:bg-blue-700 transition">Связаться</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-white">
+        <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+            <div class="text-center lg:text-left z-10">
+                <h1 class="text-4xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6">
+                    Чистота как <span class="text-primary">стандарт</span> индустрии
+                </h1>
+                <p class="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                    Современное моечное и дезинфицирующее оборудование для пищевой промышленности и агрокомплексов из
+                    Нижнего Новгорода.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="#equipment"
+                        class="px-8 py-4 bg-primary text-white rounded-full font-semibold shadow-xl shadow-blue-500/30 hover:bg-blue-700 transition transform hover:-translate-y-1">
+                        Смотреть каталог
+                    </a>
+                    <a href="#contact"
+                        class="px-8 py-4 bg-white text-slate-700 border border-slate-200 rounded-full font-semibold hover:bg-slate-50 transition transform hover:-translate-y-1">
+                        Получить консультацию
+                    </a>
+                </div>
+            </div>
+            <div class="relative z-0">
+                <!-- Decorative blob -->
+                <div
+                    class="absolute -top-12 -right-12 w-96 h-96 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob">
+                </div>
+                <div
+                    class="absolute -bottom-12 -left-12 w-96 h-96 bg-purple-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000">
+                </div>
+
+                <!-- Abstract Industrial Visual Placeholder -->
+                <div
+                    class="relative rounded-3xl overflow-hidden shadow-2xl bg-slate-100 aspect-[4/3] flex items-center justify-center group">
+                    <img src="images/hero_placeholder.webp" alt="Industrial Equipment"
+                        class="w-full h-full object-cover transition duration-700 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUTIONS SECTION -->
+    <section id="solutions" class="py-20 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Отраслевые решения</h2>
+                <div class="h-1 w-20 bg-primary mx-auto rounded-full"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition group">
+                    <div
+                        class="w-14 h-14 bg-blue-50 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Пищевая промышленность</h3>
+                    <p class="text-slate-600">Комплексные системы мойки для мясокомбинатов, молочных заводов и пекарен.
+                    </p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition group">
+                    <div
+                        class="w-14 h-14 bg-blue-50 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                            </path>
+                        </svg> <!-- Valid Icon Placeholder for Agro -->
+                        <svg class="w-7 h-7 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Агропромышленные комплексы</h3>
+                    <p class="text-slate-600">Биобезопасность птицефабрик, свинокомплексов и тепличных хозяйств.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition group">
+                    <div
+                        class="w-14 h-14 bg-blue-50 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Производственные площадки</h3>
+                    <p class="text-slate-600">Системы очистки для промышленных цехов, складов и логистических центров.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+            <div class="order-2 md:order-1">
+                <div class="relative rounded-2xl overflow-hidden shadow-2xl skew-y-1">
+                    <img src="images/Image_orht9korht9korht.webp" alt="Engineering" class="w-full h-full object-cover">
+                </div>
+            </div>
+            <div class="order-1 md:order-2">
+                <h2 class="text-3xl font-bold text-slate-900 mb-6">Команда новой волны</h2>
+                <p class="text-slate-600 text-lg leading-relaxed mb-6">
+                    Мы — инжиниринговая компания новой волны из Нижнего Новгорода. Мы объединили лучшие мировые практики
+                    (итальянская гидравлика, немецкая автоматика) с российской прочностью.
+                </p>
+                <div class="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-8">
+                    <p class="text-slate-800 font-medium italic">"Наша миссия — обеспечить пищевую безопасность через
+                        надежные технологии."</p>
+                </div>
+                <ul class="space-y-4">
+                    <li class="flex items-center text-slate-700">
+                        <svg class="w-5 h-5 text-primary mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                            </path>
+                        </svg>
+                        Собственное сборочное производство в РФ
+                    </li>
+                    <li class="flex items-center text-slate-700">
+                        <svg class="w-5 h-5 text-primary mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                            </path>
+                        </svg>
+                        Прямые контракты с производителями комплектующих
+                    </li>
+                    <li class="flex items-center text-slate-700">
+                        <svg class="w-5 h-5 text-primary mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                            </path>
+                        </svg>
+                        Склад запчастей и оперативный сервис
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- EQUIPMENT CATALOG -->
+    <section id="equipment" class="py-20 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Каталог оборудования</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto">Надежные решения для любых задач мойки и дезинфекции</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Item 1 -->
+                <div
+                    class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="p-8 flex-1">
+                        <div class="flex items-start justify-between mb-4">
+                            <h3 class="text-2xl font-bold text-slate-900">Станции повышения давления</h3>
+                            <span
+                                class="bg-blue-100 text-primary text-xs px-3 py-1 rounded-full font-semibold">Хит</span>
+                        </div>
+                        <p class="text-slate-600 mb-6">Промышленные бустерные станции на базе надежных плунжерных
+                            насосов (Bertolini/Interpump). Частотные преобразователи Danfoss/Schneider.</p>
+                        <div class="bg-slate-50 rounded-xl p-4">
+                            <h4 class="text-sm font-bold text-slate-800 mb-2 uppercase tracking-wide">Характеристики:
+                            </h4>
+                            <ul class="space-y-2 text-sm text-slate-600">
+                                <li class="flex justify-between"><span>Производительность:</span> <span
+                                        class="font-medium text-slate-900">20-1000 л/мин</span></li>
+                                <li class="flex justify-between"><span>Давление:</span> <span
+                                        class="font-medium text-slate-900">10-150 бар (опт. 20-25)</span></li>
+                                <li class="flex justify-between"><span>Материал:</span> <span
+                                        class="font-medium text-slate-900">AISI 304</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div
+                    class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="p-8 flex-1">
+                        <div class="flex items-start justify-between mb-4">
+                            <h3 class="text-2xl font-bold text-slate-900">Пенные посты и сателлиты</h3>
+                        </div>
+                        <p class="text-slate-600 mb-6">Настенные модули (Ополаскивание / Пена / Дезинфекция). Удобный
+                            переключатель "один рычаг" для быстрой смены режимов.</p>
+                        <div class="bg-slate-50 rounded-xl p-4">
+                            <h4 class="text-sm font-bold text-slate-800 mb-2 uppercase tracking-wide">Характеристики:
+                            </h4>
+                            <ul class="space-y-2 text-sm text-slate-600">
+                                <li class="flex justify-between"><span>Дозация химии:</span> <span
+                                        class="font-medium text-slate-900">0.5% - 10%</span></li>
+                                <li class="flex justify-between"><span>Безопасность:</span> <span
+                                        class="font-medium text-slate-900">Цветовая кодировка (HACCP)</span></li>
+                                <li class="flex justify-between"><span>Уплотнения:</span> <span
+                                        class="font-medium text-slate-900">Viton / EPDM</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div
+                    class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="p-8 flex-1">
+                        <div class="flex items-start justify-between mb-4">
+                            <h3 class="text-2xl font-bold text-slate-900">Мобильные установки</h3>
+                        </div>
+                        <p class="text-slate-600 mb-6">Автономные тележки "все-в-одном" с малошумным компрессором.
+                            Идеальны для гибких производственных процессов.</p>
+                        <div class="bg-slate-50 rounded-xl p-4">
+                            <h4 class="text-sm font-bold text-slate-800 mb-2 uppercase tracking-wide">Применение:</h4>
+                            <ul class="space-y-2 text-sm text-slate-600">
+                                <li class="flex items-center"><svg class="w-4 h-4 text-primary mr-2" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 12l2 2 4-4"></path>
+                                    </svg> Мойка технологического оборудования</li>
+                                <li class="flex items-center"><svg class="w-4 h-4 text-primary mr-2" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 12l2 2 4-4"></path>
+                                    </svg> Санитарная обработка транспорта</li>
+                                <li class="flex items-center"><svg class="w-4 h-4 text-primary mr-2" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 12l2 2 4-4"></path>
+                                    </svg> Обработка удаленных зон без магистралей</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div
+                    class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="p-8 flex-1">
+                        <div class="flex items-start justify-between mb-4">
+                            <h3 class="text-2xl font-bold text-slate-900">Генераторы тумана</h3>
+                        </div>
+                        <p class="text-slate-600 mb-6">Генераторы холодного тумана для финишной дезинфекции помещений и
+                            воздушной среды.</p>
+                        <div class="bg-slate-50 rounded-xl p-4">
+                            <h4 class="text-sm font-bold text-slate-800 mb-2 uppercase tracking-wide">Характеристики:
+                            </h4>
+                            <ul class="space-y-2 text-sm text-slate-600">
+                                <li class="flex justify-between"><span>Размер капли:</span> <span
+                                        class="font-medium text-slate-900">10-50 микрон</span></li>
+                                <li class="flex justify-between"><span>Эффективность:</span> <span
+                                        class="font-medium text-slate-900">Высокая проникающая способность</span></li>
+                                <li class="flex justify-between"><span>Зоны:</span> <span
+                                        class="font-medium text-slate-900">Вентиляция и труднодоступные места</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ADVANTAGES -->
+    <section class="py-16 bg-primary text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-12 text-center">
+                <div class="flex flex-col items-center">
+                    <div class="w-20 h-20 bg-white/10 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Надёжность</h3>
+                    <p class="text-blue-100">Проверенные компоненты и контроль качества сборки на каждом этапе.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-20 h-20 bg-white/10 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Стандарты HACCP</h3>
+                    <p class="text-blue-100">Оборудование спроектировано с полным соответствием международным нормам.
+                    </p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-20 h-20 bg-white/10 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                            </path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Эксперты в Н.Новгороде</h3>
+                    <p class="text-blue-100">Оперативная поддержка и выезд сервисной службы в регионе.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Наши услуги</h2>
+                <div class="h-1 w-20 bg-primary mx-auto rounded-full"></div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-6 border border-slate-100 rounded-2xl hover:border-blue-200 hover:shadow-lg transition">
+                    <div class="text-primary font-bold text-lg mb-2">01.</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Технологический аудит</h3>
+                    <p class="text-slate-600 text-sm">Гидравлический расчет, CAD-проектирование и оптимизация OPEX.</p>
+                </div>
+                <div class="p-6 border border-slate-100 rounded-2xl hover:border-blue-200 hover:shadow-lg transition">
+                    <div class="text-primary font-bold text-lg mb-2">02.</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Монтаж и Пусконаладка</h3>
+                    <p class="text-slate-600 text-sm">Профессиональная орбитальная сварка трубопроводов и обучение
+                        персонала.</p>
+                </div>
+                <div class="p-6 border border-slate-100 rounded-2xl hover:border-blue-200 hover:shadow-lg transition">
+                    <div class="text-primary font-bold text-lg mb-2">03.</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Сервис 24/7</h3>
+                    <p class="text-slate-600 text-sm">Регулярное ТО, срочные выезды и наличие подменного фонда.</p>
+                </div>
+                <div class="p-6 border border-slate-100 rounded-2xl hover:border-blue-200 hover:shadow-lg transition">
+                    <div class="text-primary font-bold text-lg mb-2">04.</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Автоматизация</h3>
+                    <p class="text-slate-600 text-sm">IoT-мониторинг работы, цифровой учет ресурсов и защита насосов.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section id="contact" class="py-20 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-2xl mx-auto bg-white rounded-3xl shadow-xl overflow-hidden">
+                <div class="p-10 md:p-12">
+                    <h2 class="text-3xl font-bold text-slate-900 text-center mb-2">Оставьте заявку</h2>
+                    <p class="text-center text-slate-600 mb-8">Наши инженеры свяжутся с вами для уточнения деталей
+                        проекта.</p>
+
+                    <form action="sendmail.php" method="POST">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-medium text-slate-700 mb-2">Ваше имя</label>
+                                <input type="text" name="name"
+                                    class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary focus:ring-2 focus:ring-blue-200 outline-none transition"
+                                    placeholder="Иван Петров" required>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-slate-700 mb-2">Телефон</label>
+                                <input type="tel" name="phone"
+                                    class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary focus:ring-2 focus:ring-blue-200 outline-none transition"
+                                    placeholder="+7 (999) 000-00-00" required>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-2">Компания</label>
+                            <input type="text" name="company"
+                                class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary focus:ring-2 focus:ring-blue-200 outline-none transition"
+                                placeholder="ООО Название">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-2">Сообщение</label>
+                            <textarea name="message" rows="4"
+                                class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary focus:ring-2 focus:ring-blue-200 outline-none transition"
+                                placeholder="Интересует мойка для..."></textarea>
+                        </div>
+                        <div class="flex items-start mb-6">
+                            <div class="flex items-center h-5">
+                                <input id="privacy-policy" name="privacy" type="checkbox" required
+                                    class="w-5 h-5 border border-slate-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300">
+                            </div>
+                            <label for="privacy-policy" class="ml-3 text-sm font-medium text-slate-600">
+                                Я согласен на обработку персональных данных в соответствии с <a href="privacy.html"
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="text-primary hover:underline">Политикой
+                                    конфиденциальности</a>
+                            </label>
+                        </div>
+                        <button type="submit" disabled id="submit-btn"
+                            class="w-full bg-slate-300 text-white font-bold py-4 rounded-xl shadow-none cursor-not-allowed transition duration-300">
+                            Отправить заявку
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COOKIE BANNER -->
+    <div id="cookie-banner"
+        class="fixed bottom-0 left-0 w-full bg-white border-t border-slate-200 shadow-2xl p-6 z-50 transform translate-y-full transition-transform duration-500 flex flex-col md:flex-row items-center justify-between gap-4 hidden">
+        <div class="text-sm text-slate-600">
+            Мы используем файлы cookie для улучшения работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь с
+            нашей <a href="privacy.html" class="text-primary hover:underline">Политикой конфиденциальности</a>.
+        </div>
+        <div class="flex gap-4">
+            <button id="cookie-accept"
+                class="px-6 py-2.5 bg-primary text-white rounded-lg text-sm font-semibold hover:bg-blue-700 transition">Принять</button>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8 mb-8 border-b border-slate-800 pb-8">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="#" class="text-2xl font-bold text-white mb-4 block">Алекан</a>
+                    <p class="text-sm max-w-xs">Инжиниринговые решения для пищевой промышленности. Качество. Надежность.
+                        Сервис.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Навигация</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#about" class="hover:text-white transition">О компании</a></li>
+                        <li><a href="#solutions" class="hover:text-white transition">Решения</a></li>
+                        <li><a href="#equipment" class="hover:text-white transition">Оборудование</a></li>
+                        <li><a href="#services" class="hover:text-white transition">Услуги</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Контакты</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>Нижний Новгород</li>
+                        <li><a href="mailto:info@alekan.ru" class="hover:text-white transition">info@alekan.ru</a></li>
+                        <li class="flex space-x-4 mt-4">
+                            <a href="#"
+                                class="w-8 h-8 bg-slate-800 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition"><svg
+                                    class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                                </svg></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center text-sm">
+                <p>&copy; 2025 Alekan. Все права защищены. <span class="text-slate-500 ml-2">ИНН 5260178771</span></p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="privacy.html" class="text-slate-500 hover:text-white transition">Политика
+                        конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MOBILE MENU & INTERACTIVITY SCRIPT -->
+    <script src="script.js"></script>
+</body>
+
+</html>
