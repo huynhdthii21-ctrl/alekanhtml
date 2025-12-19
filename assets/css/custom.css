@@ -1,0 +1,68 @@
+/* ============================================
+   Custom Styles for Alekan Landing Page
+   ============================================ */
+
+/* Typography */
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom scrollbar for better aesthetics */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Enhancing smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ============================================
+   Primary Color System (#0055ff)
+   ============================================ */
+.text-primary {
+    color: #0055ff;
+}
+
+.bg-primary {
+    background-color: #0055ff;
+}
+
+.border-primary {
+    border-color: #0055ff;
+}
+
+/* Interactive Primary States */
+.hover\:text-primary:hover {
+    color: #0055ff;
+}
+
+.hover\:bg-primary:hover {
+    background-color: #0055ff;
+}
+
+.focus\:border-primary:focus {
+    border-color: #0055ff;
+}
+
+/* Group Hover States */
+.group:hover .group-hover\:text-white {
+    color: #ffffff;
+}
+
+.group:hover .group-hover\:bg-primary {
+    background-color: #0055ff;
+}

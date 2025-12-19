@@ -1,5 +1,13 @@
+/**
+ * Alekan Landing Page - Main JavaScript
+ * =====================================
+ * Handles: Navigation, Forms, Cookies, Animations
+ */
+
 document.addEventListener('DOMContentLoaded', () => {
+    // ==========================================
     // Dynamic Header Logic
+    // ==========================================
     const header = document.getElementById('main-header');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
@@ -11,7 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // ==========================================
     // Mobile Menu Logic
+    // ==========================================
     const btn = document.getElementById('mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
     const links = mobileMenu.querySelectorAll('a');
@@ -32,7 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // ==========================================
     // Phone Mask
+    // ==========================================
     const phoneInput = document.querySelector('input[name="phone"]');
     if (phoneInput) {
         phoneInput.addEventListener('input', function (e) {
@@ -45,7 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // ==========================================
     // Privacy Checkbox Logic
+    // ==========================================
     const privacyCheckbox = document.getElementById('privacy-policy');
     const submitBtn = document.getElementById('submit-btn');
 
@@ -63,7 +77,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // ==========================================
     // Cookie Consent Logic
+    // ==========================================
     const cookieBanner = document.getElementById('cookie-banner');
     const cookieAcceptBtn = document.getElementById('cookie-accept');
 
@@ -84,7 +100,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // ==========================================
     // Form Handling with AJAX
+    // ==========================================
     const form = document.querySelector('form');
     if (form) {
         form.addEventListener('submit', async (e) => {
@@ -99,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             try {
                 const formData = new FormData(form);
-                const response = await fetch('sendmail.php', {
+                const response = await fetch('api/sendmail.php', {
                     method: 'POST',
                     body: formData
                 });
@@ -139,7 +157,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // ==========================================
     // Scroll Animations (Intersection Observer)
+    // ==========================================
     const observerOptions = {
         root: null,
         rootMargin: '0px',
